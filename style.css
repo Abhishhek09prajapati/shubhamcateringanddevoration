@@ -87,6 +87,14 @@ body {
 .servcis1 table tr th,td{
     border: 1px solid black;
 }
+.whatsappimg{
+    width: 100px;
+    position: fixed;
+    bottom: 10px;
+    border-radius: 50%;
+    right: 0;
+}
+
 @media (max-width: 600px) {
 
     .footerBox {
