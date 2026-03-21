@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ff9800;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navLinks li {
+    cursor: pointer;
+}
+
+/* Menu button */
+
+.menuBtn {
+    font-size: 25px;
+    display: none;
+    cursor: pointer;
+}
+
+/* Sidebar */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #333;
+    color: white;
+    padding-top: 20px;
+    transition: 0.3s;
+}
+
+.sidebar a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background: #555;
+}
+
+.closeBtn {
+    font-size: 25px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* Main */
+
+.main {
+    text-align: center;
+    padding: 50px;
+}
+.servcis1{
+    background-color: red;
+    width: 100%;
+    height: 500px;
+}
+.servcis1 table{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.servcis1 table tr th,td{
+    border: 1px solid black;
+}
+@media (max-width: 600px) {
+
+    .footerBox {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footCol {
+        width: 100%;
+    }
+
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .navLinks {
+        display: none;
+    }
+
+    .menuBtn {
+        display: block;
+    }
+
+}
