@@ -74,25 +74,61 @@ body {
     text-align: center;
     padding: 50px;
 }
-.servcis1{
-    background-color: red;
+
+#servcis1 {
+    /* background-color: red; */
     width: 100%;
     height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
 }
-.servcis1 table{
+
+#servcis1 table {
     background-color: white;
     width: 100%;
     height: 100%;
 }
-.servcis1 table tr th,td{
+
+#servcis1 table tr th,
+td {
     border: 1px solid black;
 }
-.whatsappimg{
+
+.whatsappimg {
     width: 100px;
     position: fixed;
     bottom: 10px;
     border-radius: 50%;
     right: 0;
+}
+
+.servicsdata {
+    width: 48%;
+    margin: 5px;
+    height: 300px;
+    border: 1px solid black;
+
+}
+
+.serrvicsimage {
+    width: 100%;
+    height: 85%;
+}
+
+.footer {
+    background-color: blue;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 30px;
+    bottom: 0px;
+}
+
+.sildeimg {
+    width: 100%;
+    height: 250px;
+
 }
 
 @media (max-width: 600px) {
