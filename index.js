@@ -4,7 +4,7 @@
 fetch('https://opensheet.elk.sh/1RKeR6fOsanl2ra79dYBemH8h4uAEZJdJBVjWX0QzSxk/WebsiteData')
     .then(res => res.json())
     .then(data => {
-        var slideimgpush = []
+        document.getElementsByClassName('logo')[0].innerText = `${data[0].TopicsValues}`
 
         var servicsCardd = document.getElementById('servcis1')
 
@@ -44,7 +44,8 @@ fetch('https://opensheet.elk.sh/1RKeR6fOsanl2ra79dYBemH8h4uAEZJdJBVjWX0QzSxk/Web
             i++
         }
 
-        
+        document.getElementsByClassName('whatsappimg')[0].src = `./image/whatsapp.png` ;
+        window.open(`https://wa.me/${data[3].TopicsValues}`,"_blank") 
 
 
     })
