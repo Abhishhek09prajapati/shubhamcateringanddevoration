@@ -3,6 +3,6 @@ function openMenu() {
 }
 
 function closeMenu() {
-    // document.getElementById("sidebar").style.left = "-250px";
+    document.getElementById("sidebar").style.left = "-250px";
 }
 

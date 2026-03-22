@@ -1,8 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    width: 100%;
-    height: 100%;
+    font-family: Arial, sans-serif;     
 }
 
 /* Navbar */
@@ -48,9 +51,9 @@ body {
     left: -250px;
     width: 250px;
     height: 100%;
-    background: #333;
+    background: #02f23a;
     color: white;
-    padding-top: 20px;
+    padding-top: 30px;
     transition: 0.3s;
 }
 
@@ -69,6 +72,10 @@ body {
     font-size: 25px;
     margin-left: 15px;
     cursor: pointer;
+    position: absolute;
+    right: 10px;
+    color: red;
+    top: 5px;
 }
 
 /* Main */
