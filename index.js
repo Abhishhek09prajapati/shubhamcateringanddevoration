@@ -1,7 +1,7 @@
 
 
 
-fetch('https://opensheet.elk.sh/1w-Yn--2SpJBxab-Yotx2nNVB5yRsEpzkmzdcSLjKTns/Laptop')
+fetch('https://opensheet.elk.sh/1RKeR6fOsanl2ra79dYBemH8h4uAEZJdJBVjWX0QzSxk/WebsiteData')
     .then(res => res.json())
     .then(data => {
         document.getElementsByClassName('logo')[0].innerText = `${data[0].TopicsValues}`
@@ -32,7 +32,7 @@ fetch('https://opensheet.elk.sh/1w-Yn--2SpJBxab-Yotx2nNVB5yRsEpzkmzdcSLjKTns/Lap
         let columnLength = Object.keys(data[5]).length
         console.log(columnLength)
         setInterval(imageview, 1100)
- 
+
         function imageview() {
 
             if (i > columnLength) {
