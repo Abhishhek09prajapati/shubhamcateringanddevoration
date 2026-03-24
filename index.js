@@ -32,7 +32,7 @@ fetch('https://opensheet.elk.sh/1RKeR6fOsanl2ra79dYBemH8h4uAEZJdJBVjWX0QzSxk/Web
         let columnLength = Object.keys(data[5]).length
         console.log(columnLength)
         setInterval(imageview, 1100)
-
+ 
         function imageview() {
 
             if (i > columnLength) {
